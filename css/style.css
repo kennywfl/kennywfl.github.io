@@ -4,15 +4,14 @@ html, body {
     font-family: ;
 }
 img {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     display: block;
-    max-width: 50%;
-    max-width: 40%;
+    max-width: 60%;
+    max-height: 70%;
 }
 h3 {
     margin-top: 4px;
@@ -37,12 +36,6 @@ p {
     position: absolute;
     top: 0px;
     left: 50%;
-}
-#instruction-content {
-    margin: 20px;
-    background: #ffffff;
-    width: 85%;
-    height: 85%
 }
 #color-toggle {
     width: 100%;
